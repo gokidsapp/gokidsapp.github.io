@@ -1,0 +1,16 @@
+User-agent: *
+Disallow: /wp-admin/
+Disallow: /wp-includes/
+Disallow: /*?*
+Disallow: /*.html0*
+Disallow: /*.html1*
+Disallow: /*.html2*
+Disallow: /*.html3*
+Disallow: /*.html4*
+Disallow: /*.html5*
+Disallow: /*.html6*
+Disallow: /*.html7*
+Disallow: /*.html8*
+Disallow: /*.html9*
+User-agent: Mediapartners-Google
+Allow: /
