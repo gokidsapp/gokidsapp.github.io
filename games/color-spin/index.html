@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<link href='apps/color-spin/layout.css' rel='stylesheet' type='text/css'>
+	<script type="text/javascript" src="./apps/color-spin/jquery-2.1.4.min.js"></script>
+	<script type="text/javascript" src="./apps/color-spin/jquery.cookie.js"></script>
+	<script type="text/javascript" src="./apps/color-spin/game.js"></script>
+	<title>旋转智力拼图</title>
+</head>
+
+<body>
+	<div id="wrap">
+		<div id="title">
+			<h1>旋转拼图</h1>
+			<span id="pause">暂停</span>
+		</div>
+		<div id="boardwrap">
+			<div id="how-to">
+			</div>
+			<div id="turn1" class="allarr"> </div>
+			<div id="turn2" class="allarr"></div>
+			<div id="turn3" class="allarr"></div>
+			<div id="turn4" class="allarr"></div>
+			<div id="template"></div>
+
+
+
+			<div id="levels">
+				<div class="levelselect">等级一</div>
+				<div>等级二</div>
+				<div>等级三</div>
+				<div>等级四</div>
+				<div>等级五</div>
+			</div>
+			<div id="highscore">分数排名</div>
+			<div id="info">
+				<div id="timer">0:00:00</div>
+				<div id="actions">步数: 0</div>
+				<div id="scoring">
+					<div id="awrap">
+						<h1 id="ahead">步数排名</h1>
+						<div id="spacer"></div>
+						<ul>
+							<li>1. <span></span></li>
+							<li>2. <span></span></li>
+							<li>3. <span></span></li>
+							<li>4. <span></span></li>
+						</ul>
+					</div>
+					<div id="twrap">
+						<h1 id="thead">用时排名</h1>
+						<div id="spacer"></div>
+						<ul>
+							<li>1. <span></span></li>
+							<li>2. <span></span></li>
+							<li>3. <span></span></li>
+							<li>4. <span></span></li>
+						</ul>
+					</div>
+					<!--- score-->
+					<div id="levinfo"></div>
+				</div>
+
+			</div>
+			<div id="board">
+
+				<div class="row1 col1 q1 q out">
+					<div class="corwrap" id="c1">
+						<div class="r-turn"></div>
+						<div></div>
+						<div class="l-turn"></div>
+						<div></div>
+					</div>
+				</div>
+				<div class="row1 col2 q1 out"></div>
+				<div class="row1 col3 q2 out"></div>
+				<div class="row1 col4 q2 q out">
+					<div class="corwrap">
+						<div class="l-turn"></div>
+						<div class="r-turn"></div>
+						<div></div>
+						<div></div>
+					</div>
+				</div>
+
+				<div class="row2 col1 q1 out"></div>
+				<div class="row2 col2 q1"></div>
+				<div class="row2 col3 q2"></div>
+				<div class="row2 col4 q2 out"></div>
+
+				<div class="row3 col1 q3 out"></div>
+				<div class="row3 col2 q3"></div>
+				<div class="row3 col3 q4"></div>
+				<div class="row3 col4 q4 out"></div>
+
+				<div class="row4 col1 q3 q out">
+					<div class="corwrap">
+						<div></div>
+						<div></div>
+						<div class="r-turn"></div>
+						<div class="l-turn"></div>
+					</div>
+
+
+				</div>
+				<div class="row4 col2 q3 out"></div>
+				<div class="row4 col3 q4 out"></div>
+				<div class="row4 col4 q4 q">
+					<div class="corwrap">
+						<div></div>
+						<div class="l-turn"> </div>
+						<div></div>
+						<div class="r-turn"></div>
+					</div>
+
+				</div>
+
+			</div>
+			<div id="overlay">
+				<div id="aniselect"></div>
+			</div>
+		</div>
+
+		<div id="start">开始</div>
+		<div id="winmessage"><span id="great">太<span class="letter1">棒</span>了<span class="letter2">你</span>！</span>
+			</br> 你成功了！</div>
+		<div id="go">开<span id="starta">始</span>！</div>
+	</div>
+
+</body>
+
+</html>
