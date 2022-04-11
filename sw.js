@@ -1,4 +1,4 @@
-const cacheName = "v1"; // Cahce Stroage 白名单
+const cacheName = "v2"; // Cahce Stroage 白名单
 const offlineUrl = "index.html";
 const cacheList = [
   "js/chunk-common.js",
@@ -50,58 +50,31 @@ this.addEventListener("fetch", (event) => {
       })
     );
   } else if (
-    event.request.url.indexOf(".ts") > -1 ||
-    event.request.url.indexOf(".adb_xml") > -1
-  ) {
-    event.respondWith(
-      caches.open(cacheName).then(function (cache) {
-        return cache
-          .match(event.request, { ignoreVary: true, ignoreSearch: true })
-          .then(function (response) {
-            return (
-              response ||
-              fetch(event.request).then(function (response) {
-                // Cache for offline access
-                var copy = response.clone();
-                if (copy.ok && copy.status == 200) {
-                  // event.waitUntil(
-                  //   caches.open(cacheName).then(function (cache) {
-                  var headers = new Headers(copy.headers);
-                  headers.append("sw-fetched-on", new Date().getTime());
-                  return copy.blob().then(function (body) {
-                    return cache.put(
-                      event.request,
-                      new Response(body, {
-                        status: copy.status,
-                        statusText: copy.statusText,
-                        headers: headers,
-                      })
-                    );
-                  });
-                  // })
-                  //  );
-                }
-
-                // Return the requested file
-                return response;
-              })
-            );
-          });
-      })
-    );
-  } else if (
     event.request.url.match(/cache=(\d+)/)
     // event.request.url.length - 4
   ) {
     event.respondWith(
       caches.open(cacheName).then(function (cache) {
         return cache
-          .match(event.request, { ignoreVary: true, ignoreSearch: true })
+          .match(event.request, { ignoreVary: true /*, ignoreSearch: true*/ })
           .then(function (response) {
-            return (
-              (isValid(response, event.request.url.match(/cache=(\d+)/)[1]) &&
-                response) ||
-              fetch(event.request)
+            if (isValid(response, event.request.url.match(/cache=(\d+)/)[1])) {
+              return response;
+            } else {
+              var corsRequest = event.request;
+              //  corsRequest = new Request(event.request.url, { mode: "cors" });
+              // corsRequest.mode = "cors";
+
+              if (
+                event.request.url.indexOf("fanyi") == -1 &&
+                event.request.url.match(/cache=0/)
+              ) {
+                corsRequest = new Request(event.request.url, {
+                  cache: "force-cache",
+                });
+              }
+
+              return fetch(corsRequest)
                 .then(function (response) {
                   // Cache for offline access
                   var copy = response.clone();
@@ -111,7 +84,7 @@ this.addEventListener("fetch", (event) => {
                     var headers = new Headers(copy.headers);
                     headers.append("sw-fetched-on", new Date().getTime());
                     return copy.blob().then(function (body) {
-                      return cache.put(
+                      cache.put(
                         event.request,
                         new Response(body, {
                           status: copy.status,
@@ -119,18 +92,21 @@ this.addEventListener("fetch", (event) => {
                           headers: headers,
                         })
                       );
+                      return response;
                     });
                     //  })
                     //);
+                  } else if (copy.type == "opaque") {
+                    cache.put(event.request, copy);
                   }
 
                   // Return the requested file
                   return response;
                 })
                 .catch(() => {
-                  return response;
-                })
-            );
+                  return fetch(event.request);
+                });
+            }
           });
       })
     );
@@ -150,6 +126,7 @@ this.addEventListener("fetch", (event) => {
 
 function isValid(response, time) {
   if (!response) return false;
+  if (time === "0") return true;
   var fetched = response.headers.get("sw-fetched-on");
   if (fetched && parseInt(fetched) + parseInt(time) > new Date().getTime())
     return true;
