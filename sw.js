@@ -1,4 +1,4 @@
-const cacheName = "v2"; // Cahce Stroage 白名单
+const cacheName = "v4"; // Cahce Stroage 白名单
 const offlineUrl = "index.html";
 const cacheList = [
   "js/chunk-common.js",
@@ -47,6 +47,55 @@ this.addEventListener("fetch", (event) => {
         // Return the offline page
         console.error(error);
         return caches.match(offlineUrl);
+      })
+    );
+  } else if (
+    event.request.url.indexOf("/games/") > -1
+    // event.request.url.length - 4
+  ) {
+    event.respondWith(
+      caches.open(cacheName).then(function (cache) {
+        return cache
+          .match(event.request, { ignoreVary: true /*, ignoreSearch: true*/ })
+          .then(function (response) {
+            if (response) return response;
+            else {
+              var corsRequest = event.request;
+
+              return fetch(corsRequest)
+                .then(function (response) {
+                  // Cache for offline access
+                  var copy = response.clone();
+                  if (copy.ok && copy.status == 200) {
+                    //  event.waitUntil(
+                    //   caches.open(cacheName).then(function (cache) {
+                    var headers = new Headers(copy.headers);
+                    headers.append("sw-fetched-on", new Date().getTime());
+                    return copy.blob().then(function (body) {
+                      cache.put(
+                        event.request,
+                        new Response(body, {
+                          status: copy.status,
+                          statusText: copy.statusText,
+                          headers: headers,
+                        })
+                      );
+                      return response;
+                    });
+                    //  })
+                    //);
+                  } else if (copy.type == "opaque") {
+                    cache.put(event.request, copy);
+                  }
+
+                  // Return the requested file
+                  return response;
+                })
+                .catch(() => {
+                  return fetch(event.request);
+                });
+            }
+          });
       })
     );
   } else if (
