@@ -1,4 +1,4 @@
-const cacheName = "v4"; // Cahce Stroage 白名单
+const cacheName = "v5"; // Cahce Stroage 白名单
 const offlineUrl = "index.html";
 const cacheList = [
   "js/chunk-common.js",

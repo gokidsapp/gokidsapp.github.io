@@ -1,0 +1,40 @@
+
+<html>
+
+<head>
+		<title>Connection</title>
+		
+		<script type="text/javascript" src="ivank.js"></script>
+		<script type="text/javascript" src="game.js"></script>
+		<script type="text/javascript" src="t.js"></script>
+		
+		<script type="text/javascript" src="js/game.js"></script>
+		
+		<script type="text/javascript">
+		
+			var stage, main;
+			
+			function Go()
+			{
+				stage = new Stage("c");
+				//main = new Controller({ mapData:{size:4, colors:3, map:[0,-1,-1,0,  1,-1,-1,1, 2,-1,-1,2, -1,-1,-1,-1]}, level:4, season:1});
+				main = new ConnMain();
+				stage.addChild(main);
+				stage.addEventListener(Event.RESIZE, resize);
+				resize(0);
+			}
+			
+			function resize(e)
+			{
+				main.resize(stage.stageWidth, stage.stageHeight);
+			}
+			
+		</script>
+
+	</head>
+
+
+	<body onload="Go();">
+		<canvas id="c"></canvas>
+	</body>
+</html>

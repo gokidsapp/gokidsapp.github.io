@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+	<meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, width=device-width" />
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 	<link href='apps/color-spin/layout.css' rel='stylesheet' type='text/css'>
 	<script type="text/javascript" src="./apps/color-spin/jquery-2.1.4.min.js"></script>
@@ -23,7 +24,6 @@
 			<div id="turn2" class="allarr"></div>
 			<div id="turn3" class="allarr"></div>
 			<div id="turn4" class="allarr"></div>
-			<div id="template"></div>
 
 
 
@@ -118,15 +118,24 @@
 				</div>
 
 			</div>
-			<div id="overlay">
-				<div id="aniselect"></div>
+
+			<div style="display: flex;">
+				<div id="template"></div>
+				<div id="start">开始</div>
+
 			</div>
 		</div>
+	</div>
 
-		<div id="start">开始</div>
-		<div id="winmessage"><span id="great">太<span class="letter1">棒</span>了<span class="letter2">你</span>！</span>
-			</br> 你成功了！</div>
-		<div id="go">开<span id="starta">始</span>！</div>
+	<div id="overlay">
+		<div id="aniselect"></div>
+	</div>
+	</div>
+
+
+	<div id="winmessage"><span id="great">太<span class="letter1">棒</span>了<span class="letter2">你</span>！</span>
+		</br> 你成功了！</div>
+	<div id="go">开<span id="starta">始</span>！</div>
 	</div>
 
 </body>
