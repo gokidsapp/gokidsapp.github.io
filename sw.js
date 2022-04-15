@@ -1,11 +1,11 @@
-const cacheName = "v5"; // Cahce Stroage 白名单
+const cacheName = "v6"; // Cahce Stroage 白名单
 const offlineUrl = "index.html";
 const cacheList = [
-  "js/chunk-common.js",
-  "css/chunk-common.css",
+  // "js/chunk-common.js",
+  //"css/chunk-common.css",
   "js/index.js",
   "css/index.css",
-  "css/chunk-vendors.css",
+  //"css/chunk-vendors.css",
   "js/chunk-vendors.js",
 ];
 this.addEventListener("install", function (event) {
