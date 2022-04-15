@@ -42883,15 +42883,13 @@ THE SOFTWARE.
       return this._effectList.GetAllEffectTypes();
     }
     _SaveToJson() {
-      return this._effectList
-        .GetAllEffectTypes()
-        .map((et) => ({
-          name: et.GetName(),
-          active: this._activeEffectFlags[et.GetIndex()],
-          params: C3.EffectList.SaveFxParamsToJson(
-            this._effectParams[et.GetIndex()]
-          ),
-        }));
+      return this._effectList.GetAllEffectTypes().map((et) => ({
+        name: et.GetName(),
+        active: this._activeEffectFlags[et.GetIndex()],
+        params: C3.EffectList.SaveFxParamsToJson(
+          this._effectParams[et.GetIndex()]
+        ),
+      }));
     }
     _LoadFromJson(arr) {
       for (const o of arr) {
@@ -55851,12 +55849,7 @@ THE SOFTWARE.
         // load state for savegames
       }
 
-      ShowAd() {
-        var sdk = window["sdk"];
-        if (sdk !== "undefined" && sdk.showBanner !== "undefined") {
-          sdk.showBanner();
-        }
-      }
+      ShowAd() {}
     };
   }
 }
