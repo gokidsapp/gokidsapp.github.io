@@ -40,7 +40,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "css/content-script.css"
   },
   {
-    "revision": "4c548665464cc7751fb3",
+    "revision": "013d3fa9313bfbb4d16a",
     "url": "css/index.css"
   },
   {
@@ -76,7 +76,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "ifs.html"
   },
   {
-    "revision": "9a6660873841afbfba28e5d38139b271",
+    "revision": "ff659b02e53d2ff6a93413678c0d2833",
     "url": "index.html"
   },
   {
@@ -88,7 +88,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "js/background.js"
   },
   {
-    "revision": "4d174cb0cda9e42e0cc3",
+    "revision": "631e5b9f0214bffeb0dd",
     "url": "js/chunk-vendors.js"
   },
   {
@@ -96,7 +96,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "js/content-script.js"
   },
   {
-    "revision": "4c548665464cc7751fb3",
+    "revision": "013d3fa9313bfbb4d16a",
     "url": "js/index.js"
   },
   {
@@ -116,7 +116,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "popup.html"
   },
   {
-    "revision": "5fd8c4b69ce13563a94d9d3f6aeacd8f",
+    "revision": "cf4925f18ab6107898f8b5d0e6ca40ac",
     "url": "popup_main.html"
   },
   {
