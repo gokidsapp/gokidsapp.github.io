@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "precache-manifest.5859504edb2559d422e19ea2c30fad4a.js"
+  "precache-manifest.js?_v=639c44170284fc50f33302ff4460250c"
 );
 
 workbox.core.setCacheNameDetails({prefix: "dictword"});
@@ -32,3 +32,4 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
 workbox.routing.registerRoute(/baidu.com/, new workbox.strategies.CacheFirst({ "cacheName":"cdn-cache", plugins: [new workbox.cacheableResponse.Plugin({ statuses: [ 0, 200 ] })] }), 'GET');
+workbox.routing.registerRoute(/games/, new workbox.strategies.CacheFirst({ "cacheName":"game-cache", plugins: [new workbox.cacheableResponse.Plugin({ statuses: [ 0, 200 ] })] }), 'GET');
