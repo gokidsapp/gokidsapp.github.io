@@ -1,1 +1,7 @@
-.ctrl[data-v-2d7202d1]{cursor:pointer;color:#00f;font-weight:700}
+
+.ctrl[data-v-2d7202d1] {
+  cursor: pointer;
+  color: blue;
+  font-weight: bold;
+}
+
