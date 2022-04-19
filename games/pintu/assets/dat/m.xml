@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<stringresources>
+<languages>
+<language>en</language>
+<language>sk</language>
+<language>es</language>
+<language>cz</language>
+<language>de</language>
+<language>it</language>
+<language>fr</language>
+<language>br</language>
+<language>ru</language>
+<language>tw</language>
+</languages>
+<strings>
+<string id="INSTRUCTIONS">
+    <en>INSTRUCTIONS</en>
+    <sk/>
+    <es>INSTRUCCIONES</es>
+    <cz/>
+    <de>ANLEITUNG</de>
+    <it>ISTRUZIONI</it>
+    <fr>INSTRUCTIONS</fr>
+    <br>INSTRUÇÕES</br>
+    <nl>INSTRUCTIES</nl>
+    <tr>AÇIKLAMALAR</tr>
+    <ru>Инструкция</ru>
+</string>
+<string id="INS_TXT">
+    <en>This jigsaw puzzle game is suitable for both children and parents. The goal of the game is to assemble each picture. The game comes with three difficulties with increasing amount of pieces for each picture.</en>
+    <sk/>
+    <es>Este juego de puzles es apto para niños y para toda la familia. El objetivo del juego consiste en recomponer cada imagen. Hay tres niveles de dificultad, cada uno de ellos con una mayor cantidad de piezas por puzle.</es>
+    <cz/>
+    <de>Dieses Puzzlespiel ist für Kinder und Eltern geeignet. Ziel des Spiels ist es, das jeweilige Bild zusammenzusetzen. Es gibt drei Schwierigkeitsstufen mit steigender Zahl an Puzzleteilen.</de>
+    <it>Questo puzzle game è adatto sia a bambini che a genitori. L'obiettivo del gioco è ricostruire tutte le immagini. Il gioco presenta tre difficoltà con un numero crescente di pezzi per ogni immagine.</it>
+    <fr>Ce jeu de puzzle est adapté à la fois aux enfants et aux parents. Le but du jeu est d'assembler chaque image. Le jeu est accessible en trois difficultés avec une quantité de pièces croissante pour chaque image.</fr>
+    <br>Este jogo de quebra-cabeça é adequado a crianças e adultos. O objetivo do jogo é montar as peças de cada imagem. No jogo há três níveis de dificuldade que aumentam a quantidade de peças de cada imagem.</br>
+    <nl>DEZE PUZZEL IS GESCHIKT VOOR ZOWEL KINDEREN ALS OUDERS. \n\n HET DOEL VAN DE GAME IS OM ELKE AFBEELDING IN ELKAAR TE ZETTEN. \n\n DE GAME HEEFT DRIE MOEILIJKHEIDSGRADEN MET EEN OPLOPEND AANTAL STUKJES VOOR ELKE AFBEELDING.</nl>
+    <tr>BU YAPBOZ BULMACA OYUNU HEM ÇOCUKLAR HEM DE ANNE BABALAR İÇİN UYGUNDUR. \n\n OYUNUN AMACI TÜM RESMİ TAMAMLAMAKTIR. \n\nOYUN 3 FARKLI ZORLUK DERECESİNE SAHİPTİR, HER BİR ZORLUK DERECESİNDE YAPBOZ PARÇASI MİKTARI ARTAR.</tr>
+    <ru>Эта пазл-игра подходит как для детей, так и для родителей. Цель игры - собрать каждую картинку. Игра идет с тремя уровнями сложности с увеличением количества фрагментов для каждой картинки.</ru>
+</string>
+<string id="TTC">
+    <en>Tap to continue</en>
+    <sk/>
+    <es>Toca para continuar</es>
+    <cz/>
+    <de>Zum Fortfahren berühren</de>
+    <it>Tocca per continuare</it>
+    <fr>Touchez pour continuer</fr>
+    <br>Toque para continuar</br>
+    <ru>НАЖМИТЕ, ЧТОБЫ ПРОДОЛЖИТЬ</ru>
+    <nl>TIK OM VERDER TE GAAN</nl>
+    <tr>DEVAM ETMEK İÇİN DOKUN</tr>
+<tw/>
+</string>
+    <string id="MORE_GAMES" index="3">
+        <en>MORE GAMES</en>
+        <sk/>
+        <es>MÁS JUEGOS</es>
+        <cz/>
+        <de>MEHR SPIELE</de>
+        <it>ALTRI GIOCHI</it>
+        <fr>PLUS DE JEUX</fr>
+        <br>MAIS JOGOS</br>
+        <ru>MORE GAMES</ru>
+        <nl>MORE GAMES</nl>
+        <tr>MORE GAMES</tr>
+        <tw/>
+    </string>
+</strings>
+</stringresources>
+
+

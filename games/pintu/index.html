@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>
+<html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>
+<html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>
+<html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+
+    <meta name="viewport" content="user-scalable=no">
+
+    <script>
+        window.addEventListener("load", function () {
+            function onTouchPreventDefault(event) {
+                event.preventDefault();
+            }
+            document.addEventListener("touchmove", onTouchPreventDefault, false);
+            document.addEventListener("touchstart", onTouchPreventDefault, false);
+        }, false);
+    </script>
+
+    <title>Happy Spring Jigsaw Puzzle</title>
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/game.css">
+
+</head>
+
+<body style="background-color: #000000">
+
+
+    <div id="wrongRotation">
+        <script type="text/javascript" style="display:none">
+            //<![CDATA[
+            window.__mirage2 = { petok: "371c126a4dbeb75c6fbc50fc80b7dcb780255fc8-1635168619-31536000" };
+//]]>
+        </script>
+        <img data-cfsrc="assets/img_480/rotate_screen.png" alt=""
+            style="display:none;visibility:hidden;" /><noscript><img src="assets/img_480/rotate_screen.png"
+                alt="" /></noscript>
+    </div>
+
+    <div id="game">
+        <script src="js/phaser.js"></script>
+        <script src="js/game.js"></script>
+
+    </div>
+    <div class="font_preload" style="opacity: 0">
+        <span style="font-family: 'gameFont', 'Arial', normal;"></span>
+    </div>
+
+</body>
+
+</html>
