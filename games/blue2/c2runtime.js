@@ -10689,7 +10689,7 @@ function rc(c) {
   var r = !0,
     t = null;
   k.prototype.Is = function (c) {
-    this.b.ua
+    1 || this.b.ua
       ? B(
           "[Construct 2] Requesting fullscreen is not supported on this platform - the request has been ignored"
         )
