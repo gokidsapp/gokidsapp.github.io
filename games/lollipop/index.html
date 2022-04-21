@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" manifest="gameCache.appcache">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport"
+        content="width=640, initial-scale=1.0, maximum-scale=1.0, width=device-width, user-scalable=0;" />
+    <meta charset="utf-8" />
+
+    <title>Back to Candyland</title>
+
+    <link href="app.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="lib/easeljs-NEXT.min.js"></script>
+    <script type="text/javascript" src="lib/preloadjs-NEXT.min.js"></script>
+    <script type="text/javascript" src="lib/soundjs-NEXT.min.js"></script>
+    <script type="text/javascript" src="lib/tweenjs-NEXT.min.js"></script>
+
+    <script src="lib/viewporter.js"></script>
+    <script src="jelly.js"></script>
+
+    <style>
+        .spilgames-ad {
+            display: block;
+            position: absolute;
+            z-index: 10001;
+            visibility: hidden;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="viewporter">
+
+        <div id="canvasHolder" style="position: absolute;">
+            <canvas id="canvas" width="640" height="960" style="position: absolute"></canvas>
+        </div>
+    </div>
+    <div id="ad-holder" style="position: absolute; visibility: hidden;">
+        <img src="assets/ad_holder.png">
+    </div>
+    <!-- <div id="spil1" data-size="300x250" style="position: absolute;">
+        <img src="assets/ad.png"/>
+    </div> -->
+    <div id="spil-ph1" class="spilgames-ad" data-size="300x250" data-spil-games-ph=""></div>
+</body>
+
+</html>
