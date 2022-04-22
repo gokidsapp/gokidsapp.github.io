@@ -19716,7 +19716,7 @@ ig.module("game.main")
               LevelHome,
             ]);
           }
-          if (_SETTINGS[j2R][s6R.r1][y2R]) {
+          if (0 && _SETTINGS[j2R][s6R.r1][y2R]) {
             try {
               this.branding = new ig.BrandingSplash();
             } catch (a) {
