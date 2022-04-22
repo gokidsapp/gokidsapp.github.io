@@ -19624,7 +19624,7 @@ ig.module("game.main")
         ) {
           $(m2R).attr(o2R, B2R);
         } else {
-          $(B2R).attr(o2R, B2R);
+          $(m2R).attr(o2R, B2R);
         }
       },
       removeLoadingWheel: function () {
