@@ -1,0 +1,22 @@
+<html>
+
+<head>
+    <script>
+        function clean() {
+            if ("serviceWorker" in navigator) {
+                caches.keys().then(function (cacheNames) {
+                    cacheNames.forEach(function (cacheName) {
+                        if (confirm("delete cache " + cacheName)) caches.delete(cacheName);
+                    });
+                });
+            }
+        }
+        clean();
+    </script>
+</head>
+
+<body>
+    <div onclick="clean()">clean</div>
+</body>
+
+</html>
