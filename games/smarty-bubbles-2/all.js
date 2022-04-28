@@ -450,7 +450,7 @@
     this.On = this.Pr = this.Ye = this.Cn = 0;
     this.Pm = !1;
     this.Jj = 0;
-    this.jq = 1;
+    this.jq = parseInt(sessionStorage.getItem("slevel") || 1);
     this.Zl = 0;
     this.Yl = !1;
     this.Xh = 0;
@@ -2759,6 +2759,7 @@
     var c = {};
     c.levelName = b;
     c.reason = a;
+    sessionStorage.setItem("slevel", b.replace(/[^\d]/g, ""));
     return J.send("EVENT_LEVELFAIL", c);
   };
   J.Tx = function (a) {
