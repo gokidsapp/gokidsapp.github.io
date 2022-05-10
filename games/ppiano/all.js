@@ -2749,15 +2749,13 @@ if (
                   return (
                     !this.header.name ||
                       (n && n.name === this.header.name) ||
-                      e
-                        .addTrack()
-                        .addEvent(
-                          new i.MetaEvent({
-                            time: 0,
-                            type: i.MetaEvent.TRACK_NAME,
-                            data: this.header.name,
-                          })
-                        ),
+                      e.addTrack().addEvent(
+                        new i.MetaEvent({
+                          time: 0,
+                          type: i.MetaEvent.TRACK_NAME,
+                          data: this.header.name,
+                        })
+                      ),
                     this.tracks.forEach(function (n) {
                       var r = e.addTrack();
                       r.setTempo(t.bpm),
@@ -44322,13 +44320,13 @@ function handleVisibilityChange() {
       (e.FORCE_DISPLAY_DEBUG_INFO = !1),
       (e.ENABLE_TILES_CACHING = !0),
       (e.LOAD_SONGS_FROM_LOCALSTORAGE = !0),
-      (e.UNLOCK_ALL_SONGS = !1),
+      (e.UNLOCK_ALL_SONGS = 1),
       (e.ENABLE_API = !0),
       (e.AUTOPLAY_ENABLED = e.DEBUG_MODE),
       (e.GOD_MODE = e.DEBUG_MODE),
       (e.GAME_VERSION = "1.06"),
       (e.VERSION_ID = "text.no_caching"),
-      (e.ENABLE_ACCELERATION = !0),
+      (e.ENABLE_ACCELERATION = 1),
       (e.LOCAL_STORAGE_KEY = "perfect_piano_1.0"),
       (t.Settings = e);
   })(src || (src = {})),
@@ -45772,17 +45770,15 @@ function handleVisibilityChange() {
           (this.heartIcon.visible = !0),
           this.heartIcon.scale.set(1, 1),
           this.heartIcon.position.set(e, i),
-          this.game.add
-            .tween(this.heartIcon)
-            .to(
-              {
-                x: this.level.windowBounds.centerX,
-                y: this.getHeartYPosition(),
-              },
-              500,
-              Phaser.Easing.Linear.None,
-              !0
-            ),
+          this.game.add.tween(this.heartIcon).to(
+            {
+              x: this.level.windowBounds.centerX,
+              y: this.getHeartYPosition(),
+            },
+            500,
+            Phaser.Easing.Linear.None,
+            !0
+          ),
           this.game.add
             .tween(this.heartIcon.scale)
             .to(
@@ -45806,17 +45802,15 @@ function handleVisibilityChange() {
                 .tween(this.background)
                 .to({ alpha: 0.8 }, 600, Phaser.Easing.Linear.None, !0, 300)
                 .onComplete.add(() => {
-                  this.game.add
-                    .tween(this.heartIcon)
-                    .to(
-                      {
-                        x: this.level.windowBounds.centerX,
-                        y: this.level.windowBounds.centerY,
-                      },
-                      500,
-                      Phaser.Easing.Sinusoidal.Out,
-                      !0
-                    ),
+                  this.game.add.tween(this.heartIcon).to(
+                    {
+                      x: this.level.windowBounds.centerX,
+                      y: this.level.windowBounds.centerY,
+                    },
+                    500,
+                    Phaser.Easing.Sinusoidal.Out,
+                    !0
+                  ),
                     this.game.add
                       .tween(this.heartIcon.scale)
                       .to(
@@ -48628,10 +48622,10 @@ function handleVisibilityChange() {
       update() {
         this.isStarted
           ? (t.Settings.ENABLE_ACCELERATION &&
-              (this.bpm +=
+              (this.bpm += 0 /*
                 (this.bpmAcceleration * this.tileManager.game.time.elapsedMS) /
-                1e3),
-            (this.speed = (this.bpm / 60) * t.Settings.TILE_HEIGHT),
+                1e3*/),
+            (this.speed = (this.bpm / 60 ) * t.Settings.TILE_HEIGHT),
             (this.frameDistance =
               (this.speed *
                 this.slowdownMultiplier *
@@ -51447,21 +51441,19 @@ function handleVisibilityChange() {
           this.albumHeader.updateView(),
           t.SoundController.instance.playExpandSound(),
           this.songs.forEach((e, i) => {
-            this.game.add
-              .tween(e)
-              .to(
-                {
-                  y:
-                    t.Settings.ALBUM_PANEL_HEIGHT +
-                    5 +
-                    (t.Settings.SONG_PANEL_HEIGHT +
-                      t.Settings.DISTANCE_BETWEEN_SONGS) *
-                      i,
-                },
-                400,
-                Phaser.Easing.Quartic.Out,
-                !0
-              );
+            this.game.add.tween(e).to(
+              {
+                y:
+                  t.Settings.ALBUM_PANEL_HEIGHT +
+                  5 +
+                  (t.Settings.SONG_PANEL_HEIGHT +
+                    t.Settings.DISTANCE_BETWEEN_SONGS) *
+                    i,
+              },
+              400,
+              Phaser.Easing.Quartic.Out,
+              !0
+            );
           }));
       }
       collapse() {
@@ -52397,21 +52389,19 @@ function handleVisibilityChange() {
         super.update();
       }
       animateProgress() {
-        this.game.add
-          .tween(this.progressBar)
-          .to(
-            {
-              width:
-                Phaser.Math.clamp(
-                  t.ScoreManager.instance.getScoreProgress(),
-                  0,
-                  1
-                ) * this.level.windowBounds.width,
-            },
-            300,
-            Phaser.Easing.Circular.Out,
-            !0
-          );
+        this.game.add.tween(this.progressBar).to(
+          {
+            width:
+              Phaser.Math.clamp(
+                t.ScoreManager.instance.getScoreProgress(),
+                0,
+                1
+              ) * this.level.windowBounds.width,
+          },
+          300,
+          Phaser.Easing.Circular.Out,
+          !0
+        );
         let e = t.ScoreManager.instance.getCurrentStarsCount();
         this.stars.forEach((t, i) => {
           let s = e > i;
