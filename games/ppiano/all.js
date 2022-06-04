@@ -44323,7 +44323,7 @@ function handleVisibilityChange() {
       (e.UNLOCK_ALL_SONGS = 1),
       (e.ENABLE_API = !0),
       (e.AUTOPLAY_ENABLED = e.DEBUG_MODE),
-      (e.GOD_MODE = e.DEBUG_MODE),
+      (e.GOD_MODE = 1),
       (e.GAME_VERSION = "1.06"),
       (e.VERSION_ID = "text.no_caching"),
       (e.ENABLE_ACCELERATION = 1),
