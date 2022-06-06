@@ -15100,7 +15100,7 @@ fg_api.prototype.init = function () {
   }
 
   function loadMoreGamesButton() {
-    return new Promise(function (resolve) {
+    /* return new Promise(function (resolve) {
       // Detect if more-games-button can be loaded, otherwise fall back to a transparent png
       var moreGamesBtn = self.getMoreGamesButtonImage();
       var moreGamesImg = new Image();
@@ -15114,7 +15114,7 @@ fg_api.prototype.init = function () {
         resolve();
       };
       moreGamesImg.src = moreGamesBtn;
-    });
+    });*/
   }
 
   Promise.all([self.game.prepare(), loadStylesheet(), loadMoreGamesButton()])
