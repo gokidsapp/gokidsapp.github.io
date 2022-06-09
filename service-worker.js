@@ -17,6 +17,7 @@ importScripts(
   "precache-manifest.js?_v=41a6fe6a130100fa3fc1014f025fcd35"
 );
 
+workbox.setConfig({ debug: true });
 workbox.core.setCacheNameDetails({prefix: "gokidsapp"});
 
 workbox.core.skipWaiting();
