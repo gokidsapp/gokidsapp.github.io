@@ -1,0 +1,17 @@
+<html>
+<head>
+<script>
+window.onload=function(){
+var q=location.search.match(/q=([^&]*)/)?location.search.match(/q=([^&]*)/)[1]:'';
+
+document.querySelector('#frame0').src='popup_main.html?q='+q;
+}
+</script>
+</head>
+
+<frameset cols="40%,60%">
+    <frame id="frame0" src="popup_main.html">
+    <frame id="frame1" src="https://image.baidu.com/">
+</frameset>
+
+</html>

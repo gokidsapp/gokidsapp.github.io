@@ -48,6 +48,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "games/ppiano/index.html"
   },
   {
+    "revision": "d850cf0d905ace91ec63324af399e1db",
+    "url": "games/pvz/index.html"
+  },
+  {
     "revision": "0fc29f20d78a6392ee6424e2be5cd559",
     "url": "games/remove/index.html"
   },
@@ -76,7 +80,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "games/wzq/index.html"
   },
   {
-    "revision": "0b98b01030ebfa791f188cab5a31f2ad",
+    "revision": "d81a50ff5fb7850ea6bdbef42cdf770d",
     "url": "index.html"
   }
 ]);
