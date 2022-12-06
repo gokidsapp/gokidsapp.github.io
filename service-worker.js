@@ -15,7 +15,7 @@ importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox
 
 importScripts(
   "wb-debug.js",
-  "precache-manifest.js?_v=59a37f078726d04a01500e047735f148"
+  "precache-manifest.js?_v=6b5b90cdce65c100178514f167f1d79e"
 );
 
 workbox.core.setCacheNameDetails({prefix: "gokidsapp"});
@@ -39,6 +39,7 @@ workbox.routing.registerNavigationRoute(workbox.precaching.getCacheKeyForURL("in
 
 workbox.routing.registerRoute(/.*?.html/, new workbox.strategies.NetworkFirst({ "cacheName":"index","networkTimeoutSeconds":5, plugins: [new workbox.cacheableResponse.Plugin({ statuses: [ 200 ] })] }), 'GET');
 workbox.routing.registerRoute(/.*?baidu.*/, new workbox.strategies.CacheFirst({ "cacheName":"cache", plugins: [new workbox.cacheableResponse.Plugin({ statuses: [ 0, 200 ] })] }), 'GET');
+workbox.routing.registerRoute(/.*?cache=0/, new workbox.strategies.CacheFirst({ "cacheName":"acache", plugins: [new workbox.cacheableResponse.Plugin({ statuses: [ 0, 200 ] })] }), 'GET');
 workbox.routing.registerRoute(/games.*/, new workbox.strategies.CacheFirst({ "cacheName":"cache", plugins: [new workbox.cacheableResponse.Plugin({ statuses: [ 0, 200 ] })] }), 'GET');
 workbox.routing.registerRoute(/https:\/\/[^/]+\/?/, new workbox.strategies.NetworkFirst({ "cacheName":"index","networkTimeoutSeconds":5, plugins: [new workbox.cacheableResponse.Plugin({ statuses: [ 200 ] })] }), 'GET');
 workbox.routing.registerRoute(/.*?(js|css).*/, new workbox.strategies.NetworkFirst({ "cacheName":"cssjs","networkTimeoutSeconds":5, plugins: [new workbox.cacheableResponse.Plugin({ statuses: [ 200 ] })] }), 'GET');
