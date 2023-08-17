@@ -12,11 +12,15 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "games/card/index.html"
   },
   {
-    "revision": "4c0a61d687919d6549f7e5e3404bdd73",
+    "revision": "4158e3c44d4939f5ccafa279e6f8b36e",
     "url": "games/cat/index.html"
   },
   {
-    "revision": "13cabcf5ae4d421d0347f05fd305c604",
+    "revision": "8a9383b5eb2dd9856f59bfbc2568a563",
+    "url": "games/color-spin/index.html"
+  },
+  {
+    "revision": "7250ee1efb5c5d5eaa59b2499fecded1",
     "url": "games/connection/index.html"
   },
   {
@@ -24,19 +28,19 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "games/lollipop/index.html"
   },
   {
-    "revision": "3175fd1225f253503799d688cbcca415",
+    "revision": "823d7046d64f81736f331758a2f1f904",
     "url": "games/master_checkers_v3/index.html"
   },
   {
-    "revision": "d58b421c695ba3458490ca3a600a3fef",
+    "revision": "e124060a881b9fe7d7fd6d27f71f0fcf",
     "url": "games/numpuz/index.html"
   },
   {
-    "revision": "39b5a4229ade979a2564b951dcbf807e",
+    "revision": "ec93f15b987b5248b8405cdd9e1b80fd",
     "url": "games/pianoonline/index.html"
   },
   {
-    "revision": "59e52aee6b2d495ee88dec1d2bbce565",
+    "revision": "8c5ea868ffe822aadfd6b009ea8def03",
     "url": "games/pinkio/index.html"
   },
   {
@@ -48,7 +52,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "games/ppiano/index.html"
   },
   {
-    "revision": "d850cf0d905ace91ec63324af399e1db",
+    "revision": "29be0fa6fb2bc6cd5ad6e4962db64045",
     "url": "games/pvz/index.html"
   },
   {
@@ -56,7 +60,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "games/remove/index.html"
   },
   {
-    "revision": "41039d602b28f0ff802923ec78966b41",
+    "revision": "7bf12cd737ee29ef253cf89c830041c8",
     "url": "games/smarty-bubbles-2/index.html"
   },
   {
@@ -72,7 +76,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "games/wuziqi/index.html"
   },
   {
-    "revision": "eae4dcb229c0362eb27c798312de86e9",
+    "revision": "03d7a02727515a699eb727c6f7f2a3d3",
     "url": "games/wuziqi2/index.html"
   },
   {
@@ -80,7 +84,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "games/wzq/index.html"
   },
   {
-    "revision": "ad2027d15b02088c7695cfb8b4f88863",
+    "revision": "0ad74179964dfda4f1a97bfa489beaaf",
     "url": "index.html"
   }
 ]);
