@@ -1,10 +1,10 @@
 
-.ctrl[data-v-6c1e4f13] {
+.ctrl[data-v-b7a32d96] {
   cursor: pointer;
   color: blue;
   font-weight: bold;
 }
-.selected > img[data-v-6c1e4f13] {
+.selected > img[data-v-b7a32d96] {
   border: 2px solid red;
 }
 
