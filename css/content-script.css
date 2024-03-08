@@ -1,10 +1,10 @@
 
-.ctrl[data-v-48edb921] {
+.ctrl[data-v-0f805ebc] {
   cursor: pointer;
   color: blue;
   font-weight: bold;
 }
-.selected > img[data-v-48edb921] {
+.selected > img[data-v-0f805ebc] {
   border: 2px solid red;
 }
 
