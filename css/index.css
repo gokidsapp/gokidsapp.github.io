@@ -1,8 +1,8 @@
 
-button[data-v-4927b35b] {
+button[data-v-24bd506b] {
   font-size: 150%;
 }
-#topbts[data-v-4927b35b] {
+#topbts[data-v-24bd506b] {
   position: fixed;
   top: 0;
   width: 100%;
@@ -10,7 +10,7 @@ button[data-v-4927b35b] {
   right: 0;
   height: 20px;
 }
-#container[data-v-4927b35b] {
+#container[data-v-24bd506b] {
   position: fixed;
   top: 0;
   right: 0;
@@ -18,26 +18,40 @@ button[data-v-4927b35b] {
   left: 0;
   z-index: -1;
 }
-canvas[data-v-4927b35b] {
+canvas[data-v-24bd506b] {
   height: 100%;
   width: 100%;
   display: block;
   box-sizing: border-box;
   position: absolute;
 }
-*[data-v-4927b35b] {
+*[data-v-24bd506b] {
   -webkit-user-select: none;
      -moz-user-select: none;
           user-select: none;
 }
-#bts[data-v-4927b35b] {
+#bts[data-v-24bd506b] {
   position: fixed;
   bottom: 0;
   z-index: 1;
   left: 0;
   background: #ddd;
 }
-.selected[data-v-4927b35b]{background-color: blue;}
+.selected[data-v-24bd506b]{background-color: blue;}
+.spell[data-v-24bd506b]{
+  height: 100%;
+     width: 100%; 
+    font-size: calc(min(25vw, 25vh));
+    color:#eee;
+    z-index:-1;
+    position: absolute;
+    display: flex;
+    align-items: center;
+  justify-content: center;
+  text-align: center;
+  word-break: break-all;
+  background-color: transparent;
+}
 
 
 #gamefr[data-v-25eb85aa] {
@@ -223,7 +237,7 @@ to {
     no-repeat;
 }
 
-.tools[data-v-e8aca098]{text-align:left;-webkit-user-select:none;-moz-user-select:none;user-select:none}.tools>*[data-v-e8aca098]{margin:3px;color:#fff}.tools>span[data-v-e8aca098]{display:inline-block;cursor:pointer}.red[data-v-e8aca098]{color:red}.green[data-v-e8aca098]{color:#90ee90}label[data-v-e8aca098]{display:inline-block;border-bottom:1px solid #fff;margin-right:5px}
+.tools[data-v-cc88511c]{text-align:left;-webkit-user-select:none;-moz-user-select:none;user-select:none}.tools>*[data-v-cc88511c]{margin:3px;color:#fff}.tools>span[data-v-cc88511c]{display:inline-block;cursor:pointer}.red[data-v-cc88511c]{color:red}.green[data-v-cc88511c]{color:#90ee90}label[data-v-cc88511c]{display:inline-block;border-bottom:1px solid #fff;margin-right:5px}
 
 span.al[data-v-1968e02a] {
   border: 1px solid gray;
