@@ -15,7 +15,7 @@ importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox
 
 importScripts(
   "wb-debug.js",
-  "precache-manifest.js?_v=6b2f69d6bdf0e95a67453fe908a69805"
+  "precache-manifest.js?_v=6d65ce0b923ebdee987e499152e580dd"
 );
 
 workbox.core.setCacheNameDetails({prefix: "gokidsapp"});
