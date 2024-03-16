@@ -1,14 +1,14 @@
 
-button[data-v-bc7c3482] {
+button[data-v-31df4849] {
   font-size: 150%;
 }
-#topbts[data-v-bc7c3482] {
+#topbts[data-v-31df4849] {
   top: 0;
   width: 100%;
   left: 0;
   right: 0;
 }
-#container[data-v-bc7c3482] {
+#container[data-v-31df4849] {
   top: 0;
   right: 0;
   bottom: 0;
@@ -17,17 +17,17 @@ button[data-v-bc7c3482] {
   height: 100%;
   width: 100%;
 }
-canvas[data-v-bc7c3482] {
+canvas[data-v-31df4849] {
   display: block;
   box-sizing: border-box;
   position: absolute;
 }
-*[data-v-bc7c3482] {
+*[data-v-31df4849] {
   -webkit-user-select: none;
      -moz-user-select: none;
           user-select: none;
 }
-#bts[data-v-bc7c3482] {
+#bts[data-v-31df4849] {
   bottom: 0;
   z-index: 1;
   left: 0;
@@ -36,13 +36,13 @@ canvas[data-v-bc7c3482] {
   padding: 10px;
   box-sizing: border-box;
 }
-#bts a[data-v-bc7c3482]{
+#bts a[data-v-31df4849]{
   font-size: 200%;
 }
-.selected[data-v-bc7c3482] {
+.selected[data-v-31df4849] {
   background-color: blue;
 }
-.spell[data-v-bc7c3482] {
+.spell[data-v-31df4849] {
   height: 100%;
   width: 100%;
   font-size: calc(min(25vw, 25vh));
@@ -56,7 +56,7 @@ canvas[data-v-bc7c3482] {
   word-break: break-all;
   background-color: transparent;
 }
-.rotate button[data-v-bc7c3482] {
+.rotate button[data-v-31df4849] {
   transform: rotate(-90deg);
   transform-origin: top left;
 }
