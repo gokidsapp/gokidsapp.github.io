@@ -84,7 +84,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "games/wzq/index.html"
   },
   {
-    "revision": "591739af7a9e12f7892854050dd731b8",
+    "revision": "873df2fde0281220d02b4e3f95ea9321",
     "url": "index.html"
   }
 ]);
