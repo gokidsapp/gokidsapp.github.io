@@ -133,7 +133,7 @@ canvas[data-v-618e99a5] {
 }
 
 
-#gamefr[data-v-25eb85aa] {
+#gamefr[data-v-04c4abda] {
   width: 100%;
   height: 100%;
   position: absolute;
@@ -142,20 +142,20 @@ canvas[data-v-618e99a5] {
   left: 0;
   overflow: auto;
 }
-h3[data-v-25eb85aa] {
+h3[data-v-04c4abda] {
 }
-ul[data-v-25eb85aa] {
+ul[data-v-04c4abda] {
   list-style-type: none;
   padding: 0;
 }
-li[data-v-25eb85aa] {
+li[data-v-04c4abda] {
   display: inline-block;
   margin: 0 10px;
 }
-a[data-v-25eb85aa] {
+a[data-v-04c4abda] {
   color: #42b983;
 }
-li.it[data-v-25eb85aa] {
+li.it[data-v-04c4abda] {
   display: flex;
   text-align: left;
   max-height: 100px;
@@ -163,26 +163,26 @@ li.it[data-v-25eb85aa] {
 
   padding-top: 10px;
 }
-.url[data-v-25eb85aa] {
+.url[data-v-04c4abda] {
   margin: 5px;
   float: left;
   cursor: pointer;
 }
-.cur[data-v-25eb85aa] {
+.cur[data-v-04c4abda] {
   background: gray;
 }
-.bt[data-v-25eb85aa] {
+.bt[data-v-04c4abda] {
   cursor: pointer;
   margin: 5px 3px;
 }
-.showAll_k.it[data-v-25eb85aa] {
+.showAll_k.it[data-v-04c4abda] {
   max-height: 100%;
 }
-.figure-list[data-v-25eb85aa] {
+.figure-list[data-v-04c4abda] {
   margin: 0;
   padding: 0;
 }
-.figure-list[data-v-25eb85aa]:after {
+.figure-list[data-v-04c4abda]:after {
   content: "";
   display: block;
   clear: both;
@@ -190,7 +190,7 @@ li.it[data-v-25eb85aa] {
   overflow: hidden;
   visibility: hidden;
 }
-.figure-list li[data-v-25eb85aa] {
+.figure-list li[data-v-04c4abda] {
   list-style: none;
   width: calc(25% - 10px);
   margin: 0 5px;
@@ -198,22 +198,22 @@ li.it[data-v-25eb85aa] {
   overflow: hidden;
   position: relative;
 }
-.figure-list li[data-v-25eb85aa]:last-child {
+.figure-list li[data-v-04c4abda]:last-child {
   margin-right: 0;
 }
 @media screen and (max-width: 500px) {
-.figure-list li[data-v-25eb85aa] {
+.figure-list li[data-v-04c4abda] {
     list-style: none;
     width: 48%;
     margin: 0 1% 1% 0;
 }
 }
-.figure-list figure[data-v-25eb85aa]:hover {
+.figure-list figure[data-v-04c4abda]:hover {
   transition: all 0.3s;
   transform: scale(1.1);
   border-radius: 4px;
 }
-.figure-list figure[data-v-25eb85aa] {
+.figure-list figure[data-v-04c4abda] {
   border: 1px solid #000;
   position: relative;
   width: 100%;
@@ -228,17 +228,17 @@ li.it[data-v-25eb85aa] {
   border-radius: 4px;
   margin: 0;
 }
-.figure-list figure a[data-v-25eb85aa] {
+.figure-list figure a[data-v-04c4abda] {
   display: block;
   position: absolute;
   width: 100%;
   top: 0;
   bottom: 0;
 }
-li[data-v-25eb85aa]:hover {
+li[data-v-04c4abda]:hover {
   box-shadow: rgb(245, 108, 108) 0 0 10px;
 }
-@keyframes tada-25eb85aa {
+@keyframes tada-04c4abda {
 0% {
     transform: scaleX(1);
 }
@@ -261,20 +261,20 @@ to {
     transform: scaleX(1);
 }
 }
-.tada[data-v-25eb85aa] {
-  animation-name: tada-25eb85aa;
+.tada[data-v-04c4abda] {
+  animation-name: tada-04c4abda;
 }
-.animated[data-v-25eb85aa] {
+.animated[data-v-04c4abda] {
   animation-duration: 1s;
   animation-fill-mode: both;
 }
-.animated.infinite[data-v-25eb85aa] {
+.animated.infinite[data-v-04c4abda] {
   animation-iteration-count: infinite;
 }
-.speaking[data-v-25eb85aa] {
-  animation: warn-25eb85aa 1.5s ease-out 0s infinite;
+.speaking[data-v-04c4abda] {
+  animation: warn-04c4abda 1.5s ease-out 0s infinite;
 }
-@keyframes warn-25eb85aa {
+@keyframes warn-04c4abda {
 0% {
     transform: scale(0.5);
     opacity: 1;
@@ -287,25 +287,25 @@ to {
     opacity: 0;
 }
 }
-.itemText[data-v-25eb85aa] {
+.itemText[data-v-04c4abda] {
   text-align: left;
   position: absolute;
   top: 1px;
   z-index: 1;
   left: 1px;
 }
-.itemText span[data-v-25eb85aa] {
+.itemText span[data-v-04c4abda] {
   display: block;
   float: left;
   background: white;
 }
-.itemText span[data-v-25eb85aa]:first-child {
+.itemText span[data-v-04c4abda]:first-child {
   background: white;
 }
-.itemText span[data-v-25eb85aa]:last-child {
+.itemText span[data-v-04c4abda]:last-child {
   background: white;
 }
-.aDSsMd-open[data-v-25eb85aa] {
+.aDSsMd-open[data-v-04c4abda] {
   position: absolute;
   width: 40px;
   height: 40px;
