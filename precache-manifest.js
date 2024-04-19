@@ -24,7 +24,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "games/connection/index.html"
   },
   {
-    "revision": "96671c50061c66705ab21aec1c327d87",
+    "revision": "2ba6533351fdc0128000f7d4494faffb",
     "url": "games/letter_trace/html/index.html"
   },
   {
