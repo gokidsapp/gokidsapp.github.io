@@ -1,0 +1,18 @@
+{
+  "resources": [
+    "./src/assets/sounds/gameAudio.ogg",
+    "./src/assets/sounds/gameAudio.mp3"
+  ],
+  "spritemap": {
+    "click": {
+      "start": 0,
+      "end": 0.14512471655328799,
+      "loop": false
+    },
+    "intro-theme": {
+      "start": 2,
+      "end": 34.011927437641724,
+      "loop": false
+    }
+  }
+}

@@ -1,0 +1,104 @@
+{
+	"textures": [
+		{
+			"image": "preloader-0.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 414,
+				"h": 374
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "Sun",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 213,
+						"h": 213
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 213,
+						"h": 213
+					},
+					"frame": {
+						"x": 3,
+						"y": 3,
+						"w": 213,
+						"h": 213
+					}
+				},
+				{
+					"filename": "ABCyaLogo",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 408,
+						"h": 151
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 408,
+						"h": 151
+					},
+					"frame": {
+						"x": 3,
+						"y": 220,
+						"w": 408,
+						"h": 151
+					}
+				},
+				{
+					"filename": "PlayBtn",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 75,
+						"h": 89
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 75,
+						"h": 89
+					},
+					"frame": {
+						"x": 220,
+						"y": 3,
+						"w": 75,
+						"h": 89
+					}
+				},
+				{
+					"filename": "Rocket",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 36,
+						"h": 74
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 36,
+						"h": 74
+					},
+					"frame": {
+						"x": 299,
+						"y": 3,
+						"w": 36,
+						"h": 74
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "3.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:c7bd3b0f6d94d203785a7823e9ee8183:76f13a67e547595737f064b2bb4c16d5:7677392dd33c8ec5c4ff0e1e19726870$"
+	}
+}

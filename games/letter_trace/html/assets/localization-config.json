@@ -1,0 +1,22 @@
+{
+  "en-US": {
+    "strings": false,
+    "images": true,
+    "sounds": true
+  },
+  "en-GB": {
+    "strings": false,
+    "images": true,
+    "sounds": true
+  },
+  "en-AU": {
+    "strings": false,
+    "images": true,
+    "sounds": true
+  },
+  "en-CA": {
+    "strings": false,
+    "images": true,
+    "sounds": true
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "resources": [
+    "./src/assets/sounds/island.ogg",
+    "./src/assets/sounds/island.mp3"
+  ],
+  "spritemap": {
+    "island_bonus_part_1": {
+      "start": 0,
+      "end": 15.99814058956916,
+      "loop": false
+    },
+    "island_bonus_part_2": {
+      "start": 17,
+      "end": 33.016825396825396,
+      "loop": false
+    },
+    "island_bonus_part_3": {
+      "start": 35,
+      "end": 50.99950113378685,
+      "loop": false
+    },
+    "island_bonus_part_4": {
+      "start": 52,
+      "end": 67.99950113378685,
+      "loop": false
+    },
+    "island_bonus_part_5": {
+      "start": 69,
+      "end": 85.01859410430839,
+      "loop": false
+    },
+    "island_bonus_part_6": {
+      "start": 87,
+      "end": 102.99950113378685,
+      "loop": false
+    },
+    "island-theme-song": {
+      "start": 104,
+      "end": 147.10253968253969,
+      "loop": false
+    }
+  }
+}

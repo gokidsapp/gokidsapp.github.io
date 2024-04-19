@@ -1,0 +1,103 @@
+{
+  "resources": [
+    "./src/assets/en-US/sounds.ogg",
+    "./src/assets/en-US/sounds.mp3"
+  ],
+  "spritemap": {
+    "bonus-instructions": {
+      "start": 0,
+      "end": 4.638276643990929,
+      "loop": false
+    },
+    "choose-theme": {
+      "start": 6,
+      "end": 7.507687074829932,
+      "loop": false
+    },
+    "classical-select": {
+      "start": 9,
+      "end": 10.14453514739229,
+      "loop": false
+    },
+    "game-select-inst": {
+      "start": 12,
+      "end": 13.985419501133787,
+      "loop": false
+    },
+    "inst-1-numbers": {
+      "start": 15,
+      "end": 18.4156462585034,
+      "loop": false
+    },
+    "inst-1": {
+      "start": 20,
+      "end": 23.514761904761905,
+      "loop": false
+    },
+    "inst-2": {
+      "start": 25,
+      "end": 29.135283446712016,
+      "loop": false
+    },
+    "inst-3": {
+      "start": 31,
+      "end": 35.40718820861678,
+      "loop": false
+    },
+    "island-select": {
+      "start": 37,
+      "end": 38.0649433106576,
+      "loop": false
+    },
+    "lowercase-select": {
+      "start": 40,
+      "end": 41.911179138322,
+      "loop": false
+    },
+    "new-title_lowercase": {
+      "start": 43,
+      "end": 46.420272108843534,
+      "loop": false
+    },
+    "new-title_numbers": {
+      "start": 48,
+      "end": 50.71634920634921,
+      "loop": false
+    },
+    "new-title_uppercase": {
+      "start": 52,
+      "end": 55.05149659863945,
+      "loop": false
+    },
+    "new-title": {
+      "start": 57,
+      "end": 60.506780045351476,
+      "loop": false
+    },
+    "numbers-select": {
+      "start": 62,
+      "end": 63.23092970521542,
+      "loop": false
+    },
+    "pop-select": {
+      "start": 65,
+      "end": 65.65625850340136,
+      "loop": false
+    },
+    "rock-select": {
+      "start": 67,
+      "end": 67.80312925170068,
+      "loop": false
+    },
+    "uppercase-select": {
+      "start": 69,
+      "end": 70.52995464852607,
+      "loop": false
+    },
+    "you-did-it": {
+      "start": 72,
+      "end": 74.02843537414967,
+      "loop": false
+    }
+  }
+}

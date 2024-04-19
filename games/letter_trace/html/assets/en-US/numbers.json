@@ -1,0 +1,58 @@
+{
+  "resources": [
+    "./src/assets/en-US/numbers.ogg",
+    "./src/assets/en-US/numbers.mp3"
+  ],
+  "spritemap": {
+    "0": {
+      "start": 0,
+      "end": 1.0166213151927437,
+      "loop": false
+    },
+    "1": {
+      "start": 3,
+      "end": 3.963514739229025,
+      "loop": false
+    },
+    "2": {
+      "start": 5,
+      "end": 5.916598639455782,
+      "loop": false
+    },
+    "3": {
+      "start": 7,
+      "end": 7.920816326530613,
+      "loop": false
+    },
+    "4": {
+      "start": 9,
+      "end": 9.999138321995465,
+      "loop": false
+    },
+    "5": {
+      "start": 11,
+      "end": 12.169138321995465,
+      "loop": false
+    },
+    "6": {
+      "start": 14,
+      "end": 15.17732426303855,
+      "loop": false
+    },
+    "7": {
+      "start": 17,
+      "end": 18.116621315192745,
+      "loop": false
+    },
+    "8": {
+      "start": 20,
+      "end": 20.840521541950114,
+      "loop": false
+    },
+    "9": {
+      "start": 22,
+      "end": 23.13625850340136,
+      "loop": false
+    }
+  }
+}

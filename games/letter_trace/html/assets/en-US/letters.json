@@ -1,0 +1,138 @@
+{
+  "resources": [
+    "./src/assets/en-US/letters.ogg",
+    "./src/assets/en-US/letters.mp3"
+  ],
+  "spritemap": {
+    "A": {
+      "start": 0,
+      "end": 0.8806575963718821,
+      "loop": false
+    },
+    "B": {
+      "start": 2,
+      "end": 2.884489795918367,
+      "loop": false
+    },
+    "C": {
+      "start": 4,
+      "end": 5.012539682539683,
+      "loop": false
+    },
+    "D": {
+      "start": 7,
+      "end": 7.921541950113379,
+      "loop": false
+    },
+    "E": {
+      "start": 9,
+      "end": 9.934716553287982,
+      "loop": false
+    },
+    "F": {
+      "start": 11,
+      "end": 11.93687074829932,
+      "loop": false
+    },
+    "G": {
+      "start": 13,
+      "end": 13.96687074829932,
+      "loop": false
+    },
+    "H": {
+      "start": 15,
+      "end": 16.048458049886623,
+      "loop": false
+    },
+    "I": {
+      "start": 18,
+      "end": 18.957755102040817,
+      "loop": false
+    },
+    "J": {
+      "start": 20,
+      "end": 21.0056462585034,
+      "loop": false
+    },
+    "K": {
+      "start": 23,
+      "end": 23.992585034013604,
+      "loop": false
+    },
+    "L": {
+      "start": 25,
+      "end": 25.910045351473922,
+      "loop": false
+    },
+    "M": {
+      "start": 27,
+      "end": 27.96045351473923,
+      "loop": false
+    },
+    "N": {
+      "start": 29,
+      "end": 29.93748299319728,
+      "loop": false
+    },
+    "O": {
+      "start": 31,
+      "end": 31.978208616780044,
+      "loop": false
+    },
+    "P": {
+      "start": 33,
+      "end": 33.9375283446712,
+      "loop": false
+    },
+    "Q": {
+      "start": 35,
+      "end": 35.688049886621314,
+      "loop": false
+    },
+    "R": {
+      "start": 37,
+      "end": 37.98460317460317,
+      "loop": false
+    },
+    "S": {
+      "start": 39,
+      "end": 40.09417233560091,
+      "loop": false
+    },
+    "T": {
+      "start": 42,
+      "end": 42.93283446712018,
+      "loop": false
+    },
+    "U": {
+      "start": 44,
+      "end": 45.02795918367347,
+      "loop": false
+    },
+    "V": {
+      "start": 47,
+      "end": 48.037120181405896,
+      "loop": false
+    },
+    "W": {
+      "start": 50,
+      "end": 51.05133786848072,
+      "loop": false
+    },
+    "X": {
+      "start": 53,
+      "end": 54.06077097505669,
+      "loop": false
+    },
+    "Y": {
+      "start": 56,
+      "end": 57.10907029478458,
+      "loop": false
+    },
+    "Z": {
+      "start": 59,
+      "end": 60.09183673469388,
+      "loop": false
+    }
+  }
+}

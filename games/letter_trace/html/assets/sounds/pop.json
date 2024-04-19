@@ -1,0 +1,43 @@
+{
+  "resources": [
+    "./src/assets/sounds/pop.ogg",
+    "./src/assets/sounds/pop.mp3"
+  ],
+  "spritemap": {
+    "pop_bonus_part_1": {
+      "start": 0,
+      "end": 6.50172335600907,
+      "loop": false
+    },
+    "pop_bonus_part_2": {
+      "start": 8,
+      "end": 14.398820861678004,
+      "loop": false
+    },
+    "pop_bonus_part_3": {
+      "start": 16,
+      "end": 22.40140589569161,
+      "loop": false
+    },
+    "pop_bonus_part_4": {
+      "start": 24,
+      "end": 30.40140589569161,
+      "loop": false
+    },
+    "pop_bonus_part_5": {
+      "start": 32,
+      "end": 38.40539682539683,
+      "loop": false
+    },
+    "pop_bonus_part_6": {
+      "start": 40,
+      "end": 46.40140589569161,
+      "loop": false
+    },
+    "pop-theme-song": {
+      "start": 48,
+      "end": 78.00344671201813,
+      "loop": false
+    }
+  }
+}

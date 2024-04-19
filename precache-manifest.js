@@ -24,6 +24,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "games/connection/index.html"
   },
   {
+    "revision": "96671c50061c66705ab21aec1c327d87",
+    "url": "games/letter_trace/html/index.html"
+  },
+  {
     "revision": "423e9de02be24b882395238c7cfb83bc",
     "url": "games/lollipop/index.html"
   },
@@ -84,7 +88,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "games/wzq/index.html"
   },
   {
-    "revision": "ae1c5aa23f6730e02bbec0f8b71c027b",
+    "revision": "ad505eb4df33c47d435cb9735288c46d",
     "url": "index.html"
   }
 ]);

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Word version="1.0" unicode="A">
+  <Stroke>
+    <Outline><d>
+		m 119 234 l -14 43 l -44 120 l -57 0 l 153 -397 l 33 0 l -5 42 l -21 76 z</d>
+    </Outline>
+    <Track>
+      <MoveTo x="576.0" y="266.0" size="135.0" />
+      <MoveTo x="555.0" y="1061.0" />
+      <MoveTo x="520.0" y="1845.0" />
+    </Track>
+  </Stroke>
+  <Stroke>
+    <Outline>
+		<d>m 66 -192 l 0 -42 l 29 0 l 163 397 l -60 0 l -63 -163 l -41 -110 l -28 -82 z</d>
+    </Outline>
+    <Track>
+      <MoveTo x="538.0" y="940.0" size="115.0" />
+      <MoveTo x="330.0" y="1298.0" />
+      <MoveTo x="103.0" y="1521.0" size="105.0" />
+    </Track>
+  </Stroke>
+  <Stroke>
+    <Outline>
+		<d>m 0 0 l 135 0 l 17 43 l -166 0 l 14 -43 z</d>
+    </Outline>
+    <Track>
+      <MoveTo x="596.0" y="996.0" />
+      <MoveTo x="753.0" y="1140.0" />
+    </Track>
+  </Stroke>
+</Word>
+

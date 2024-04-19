@@ -1,0 +1,43 @@
+{
+  "resources": [
+    "./src/assets/sounds/classical.ogg",
+    "./src/assets/sounds/classical.mp3"
+  ],
+  "spritemap": {
+    "classical_bonus_part_1": {
+      "start": 0,
+      "end": 4.799092970521542,
+      "loop": false
+    },
+    "classical_bonus_part_2": {
+      "start": 6,
+      "end": 15.601179138321996,
+      "loop": false
+    },
+    "classical_bonus_part_3": {
+      "start": 17,
+      "end": 26.59968253968254,
+      "loop": false
+    },
+    "classical_bonus_part_4": {
+      "start": 28,
+      "end": 37.601179138321996,
+      "loop": false
+    },
+    "classical_bonus_part_5": {
+      "start": 39,
+      "end": 48.59891156462585,
+      "loop": false
+    },
+    "classical_bonus_part_6": {
+      "start": 50,
+      "end": 59.59891156462585,
+      "loop": false
+    },
+    "classical-theme-song": {
+      "start": 61,
+      "end": 106.70403628117913,
+      "loop": false
+    }
+  }
+}
