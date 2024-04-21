@@ -1,14 +1,14 @@
 
-button[data-v-ac2ea820] {
+button[data-v-617f7d26] {
   font-size: 150%;
 }
-#topbts[data-v-ac2ea820] {
+#topbts[data-v-617f7d26] {
   top: 0;
   width: 100%;
   left: 0;
   right: 0;
 }
-#container[data-v-ac2ea820] {
+#container[data-v-617f7d26] {
   top: 0;
   right: 0;
   bottom: 0;
@@ -17,17 +17,17 @@ button[data-v-ac2ea820] {
   height: 100%;
   width: 100%;
 }
-canvas[data-v-ac2ea820] {
+canvas[data-v-617f7d26] {
   display: block;
   box-sizing: border-box;
   position: absolute;
 }
-*[data-v-ac2ea820] {
+*[data-v-617f7d26] {
   -webkit-user-select: none;
      -moz-user-select: none;
           user-select: none;
 }
-#bts[data-v-ac2ea820] {
+#bts[data-v-617f7d26] {
   bottom: 0;
   z-index: 1;
   left: 0;
@@ -36,13 +36,13 @@ canvas[data-v-ac2ea820] {
   padding: 10px;
   box-sizing: border-box;
 }
-#bts a[data-v-ac2ea820] {
+#bts a[data-v-617f7d26] {
   font-size: 200%;
 }
-.selected[data-v-ac2ea820] {
+.selected[data-v-617f7d26] {
   background-color: blue;
 }
-.spell[data-v-ac2ea820] {
+.spell[data-v-617f7d26] {
   height: 100%;
   width: 100%;
   font-size: calc(min(25vw, 25vh));
@@ -56,7 +56,7 @@ canvas[data-v-ac2ea820] {
   word-break: break-all;
   background-color: transparent;
 }
-.rotate button[data-v-ac2ea820] {
+.rotate button[data-v-617f7d26] {
   transform: rotate(-90deg);
   transform-origin: top left;
 }
