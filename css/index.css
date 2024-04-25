@@ -1,14 +1,14 @@
 
-button[data-v-da335b74] {
+button[data-v-9e8048e4] {
   font-size: 150%;
 }
-#topbts[data-v-da335b74] {
+#topbts[data-v-9e8048e4] {
   top: 0;
   width: 100%;
   left: 0;
   right: 0;
 }
-#container[data-v-da335b74] {
+#container[data-v-9e8048e4] {
   top: 0;
   right: 0;
   bottom: 0;
@@ -17,17 +17,17 @@ button[data-v-da335b74] {
   height: 100%;
   width: 100%;
 }
-canvas[data-v-da335b74] {
+canvas[data-v-9e8048e4] {
   display: block;
   box-sizing: border-box;
   position: absolute;
 }
-*[data-v-da335b74] {
+*[data-v-9e8048e4] {
   -webkit-user-select: none;
      -moz-user-select: none;
           user-select: none;
 }
-#bts[data-v-da335b74] {
+#bts[data-v-9e8048e4] {
   bottom: 0;
   z-index: 1;
   left: 0;
@@ -36,13 +36,13 @@ canvas[data-v-da335b74] {
   padding: 10px;
   box-sizing: border-box;
 }
-#bts a[data-v-da335b74] {
+#bts a[data-v-9e8048e4] {
   font-size: 200%;
 }
-.selected[data-v-da335b74] {
+.selected[data-v-9e8048e4] {
   background-color: blue;
 }
-.spell[data-v-da335b74] {
+.spell[data-v-9e8048e4] {
   height: 100%;
   width: 100%;
   font-size: calc(min(25vw, 25vh));
@@ -56,7 +56,7 @@ canvas[data-v-da335b74] {
   word-break: break-all;
   background-color: transparent;
 }
-.rotate button[data-v-da335b74] {
+.rotate button[data-v-9e8048e4] {
   transform: rotate(-90deg);
   transform-origin: top left;
 }
